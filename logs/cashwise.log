@@ -1,0 +1,10 @@
+21:26:08 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+21:26:13 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+21:26:13 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
+14:06:57 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+14:06:58 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+14:06:58 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
+18:12:14 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+18:12:15 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+18:12:37 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+18:12:39 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
