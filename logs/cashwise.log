@@ -8,3 +8,6 @@
 18:12:15 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
 18:12:37 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
 18:12:39 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+15:50:49 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+15:50:50 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+15:50:50 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field

@@ -1,7 +1,7 @@
 Feature:
 
   Background:
-      Given user is on "url"
+      Given user is on "https://accounts.google.com/"
 
 
     Scenario: Positive test case
