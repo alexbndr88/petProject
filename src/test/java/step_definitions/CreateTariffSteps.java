@@ -20,8 +20,8 @@ import java.util.Map;
 
 public class CreateTariffSteps {
 
-     WebDriver driver = Driver.getDriver();
-CreateTariff createTariffPage = PageFactory.initElements(driver, CreateTariff.class);
+    WebDriver driver = Driver.getDriver();
+    CreateTariff createTariffPage = PageFactory.initElements(driver, CreateTariff.class);
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
     @FindBy(name = "email")

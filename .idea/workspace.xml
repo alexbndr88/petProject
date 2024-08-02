@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="update">
+    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateTariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateTariff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/CreateTariffSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/CreateTariffSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Tariff.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Tariff.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,26 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Gmail.executor": "Run",
-    "Cucumber Java.Feature: Tariff.executor": "Debug",
-    "Cucumber Java.Feature: login.executor": "Run",
-    "Cucumber Java.Scenario: Login test.executor": "Run",
-    "Cucumber Java.Scenario: Positive checkout.executor": "Run",
-    "Cucumber Java.Scenario: Positive test case.executor": "Run",
-    "Cucumber Java.Scenario: User creates a new tariff.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where opens webpage.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where user creating tariff.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where user searches for apple.executor": "Run",
-    "JUnit.CucumberRunner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Tariff",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/oles/Downloads/Cucumber-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Gmail.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive checkout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive test case.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User creates a new tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where opens webpage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user creating tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user searches for apple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CucumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Tariff&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oles/Downloads/Cucumber-main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="step_definitions" />
+    </key>
+  </component>
   <component name="RunManager" selected="Cucumber Java.Feature: Tariff">
     <configuration name="Feature: Tariff" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -291,7 +299,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722634751218</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638092106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638092106</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638105921</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638105921</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638113404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638113404</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722638136845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638136845</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +349,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
   </component>
 </project>
