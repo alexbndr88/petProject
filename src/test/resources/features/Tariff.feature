@@ -7,7 +7,14 @@ Feature: Create Tariff
   @tariff
   Scenario: User creates a new tariff
     Given the user is located at the Create Tariff page
-    When the user creates a new tariff with the following details
-      | branchName | tariffName | deliveryTime | typeOfDelivery | deliveryCost | region | coordinates | additionalInfo | isAvailable |
-      | Nurgazy    | TestTariff | 24 hours     | City express   | 10.00        | Hawaii | 123, 456    | None           | true        |
-    Then the tariff should be created successfully
+   And user click create tariff
+    And user selecting branch
+    And user eneters tarifname "name"
+    And user selects time "5"
+    And user select type
+    And user enter cost "420"
+    And user select region
+    And user select availability
+    And user enters graphic coordinates "coordinates"
+    And user enters add "information"
+    Then user verifies that tariff was created
