@@ -2,6 +2,7 @@ package pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,10 +13,12 @@ import utilities.Driver;
 import java.time.Duration;
 
 public class CreateTariff {
-
+    WebDriver driver;
     public CreateTariff() {
-        PageFactory.initElements(Driver.getDriver(), this);
+        this.driver = Driver.getDriver();
+        PageFactory.initElements(driver, this);
     }
+
 
     @FindBy(xpath = "//button[contains(text(),'Create')]")
     public WebElement createButton;

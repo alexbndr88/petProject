@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Sleeper;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CreateTariff;
 import io.cucumber.java.en.Given;
@@ -13,23 +14,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.junit.Assert;
 import utilities.Driver;
-
+import pages.CreateTariff;
 import java.time.Duration;
 import java.util.Map;
 
 public class CreateTariffSteps {
 
-    public WebDriver driver = Driver.getDriver();
-    public CreateTariff createTariffPage = PageFactory.initElements(driver, CreateTariff.class);
+     WebDriver driver = Driver.getDriver();
+CreateTariff createTariffPage = PageFactory.initElements(driver, CreateTariff.class);
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-    @FindBy(xpath = "//input[@placeholder='Enter login']")  // Update locator as per the actual element ID
+    @FindBy(name = "email")
     public WebElement usernameField;
 
-    @FindBy(id = "password")  // Update locator as per the actual element ID
+    @FindBy(id = "password")
     public WebElement passwordField;
 
-    @FindBy(xpath = "//button[@type='submit']")  // Update locator as per the actual element
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
 
     @Given("the user is located at {string}")
@@ -38,15 +39,16 @@ public class CreateTariffSteps {
     }
 
     @Given("the user logs in with {string} and {string}")
+
     public void the_user_logs_in_with(String username, String password) {
-        wait.until(ExpectedConditions.visibilityOf(usernameField)).sendKeys(username);
+        usernameField.sendKeys(username);
         passwordField.sendKeys(password);
         loginButton.click();
     }
 
     @Given("the user is located at the Create Tariff page")
     public void the_user_is_located_at_the_create_tariff_page() {
-        driver.get("https://supplysync.us/create-tariff"); // Adjust this URL as needed
+        driver.get("https://supplysync.us/create-tariff");
     }
 
     @When("the user creates a new tariff with the following details")
