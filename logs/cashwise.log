@@ -11,3 +11,5 @@
 15:50:49 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
 15:50:50 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
 15:50:50 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
+16:11:15 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.saucedemo.com/
+16:11:16 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Swag Labs
