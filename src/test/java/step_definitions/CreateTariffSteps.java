@@ -3,21 +3,15 @@ package step_definitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Sleeper;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CreateTariff;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.junit.Assert;
 import utilities.Driver;
-import pages.CreateTariff;
 import java.time.Duration;
-import java.util.Map;
 
 public class CreateTariffSteps {
 
@@ -42,24 +36,12 @@ public class CreateTariffSteps {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
 
-//    @Given("the user is located at {string}")
-//    public void the_user_is_located_at(String url) {
-//        driver.get(url);
-//    }
 
-//    @Given("the user logs in with {string} and {string}")
-//
-//    public void the_user_logs_in_with(String username, String password) {
-//        usernameField.sendKeys(username);
-//        passwordField.sendKeys(password);
-//        loginButton.click();
-//    }
 
     @Given("the user is located at the Create Tariff page")
     public void the_user_is_located_at_the_create_tariff_page() {
        driver.findElement(By.xpath("(//span[@class='sc-egiyK GEXAw MuiTypography-root MuiTypography-body1 MuiListItemText-primary'])[4]")).click();
-//       driver.findElement(By.xpath("//button[@class='sc-jJoQJp ieRzNh MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root sc-eGRUor dTmEKg sc-gIDmLj fpapDT sc-gDGHff fkfylB']")).click();
-//
+
     }
 
     @Given("user click create tariff")
