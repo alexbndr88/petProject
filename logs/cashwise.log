@@ -13,3 +13,16 @@
 15:50:50 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
 16:11:15 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.saucedemo.com/
 16:11:16 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Swag Labs
+17:04:05 [main] INFO  step_definitions.CreateTariffSteps - user is located at the create tariff page
+17:08:23 [main] INFO  step_definitions.CreateTariffSteps - user is located at the create tariff page
+17:08:23 [main] INFO  step_definitions.CreateTariffSteps - user is clicking on create tariff
+17:08:23 [main] INFO  step_definitions.CreateTariffSteps - user is selecting branch
+17:08:24 [main] INFO  step_definitions.CreateTariffSteps - user enters name
+17:08:24 [main] INFO  step_definitions.CreateTariffSteps - user is selecting time
+17:08:24 [main] INFO  step_definitions.CreateTariffSteps - user is selecting type
+17:08:24 [main] INFO  step_definitions.CreateTariffSteps - user enters cost
+17:08:24 [main] INFO  step_definitions.CreateTariffSteps - user is selecting region
+17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user is selecting availability
+17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user is entering coordinates
+17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user entering comments
+17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user is clicking create 

@@ -18,3 +18,5 @@ Feature: Create Tariff
     And user enters graphic coordinates "coordinates"
     And user enters add "information"
     Then user verifies that tariff was created
+
+

@@ -15,6 +15,7 @@ import pages.CreateCompany;
 import utilities.Driver;
 
 import java.time.Duration;
+import java.util.logging.Logger;
 
 public class CreateCompanySteps {
 
@@ -90,10 +91,11 @@ public class CreateCompanySteps {
     public void user_clicks_submit_button() {
        driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
-    @Then("user verifies that name was creates")
-    public void user_verifies_that_name_was_creates() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Then("user verifies that name wasnt creates")
+    public void user_verifies_that_name_wasnt_creates() {
+       String error = driver.findElement(By.xpath("//p[@class='sc-kmQMED junKfP']")).getText();
+       Assert.assertTrue(error.equals("Phone number is required"));
     }
+
 
 }
