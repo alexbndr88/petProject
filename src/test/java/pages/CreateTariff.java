@@ -14,6 +14,7 @@ import java.time.Duration;
 
 public class CreateTariff {
 
+
     public CreateTariff() {
         PageFactory.initElements(Driver.getDriver(), this);
     }

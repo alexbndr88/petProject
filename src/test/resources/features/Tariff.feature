@@ -5,7 +5,7 @@ Feature: Create Tariff
     Given the user is located at "https://supplysync.us/login"
     And the user logs in with "admin@codewise.com" and "codewise123"
 
-  @tariff
+  @tariffpositive
   Scenario: User creates a new tariff
     Given the user is located at the Create Tariff page
    And user click create tariff
