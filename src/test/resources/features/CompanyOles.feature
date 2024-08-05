@@ -13,4 +13,4 @@ Feature: Create Company
     And user fills address "address"
     And user fills  number "1231231312"
     And user clicks submit button
-    Then user verifies that name was creates
+    Then user verifies that name wasnt creates

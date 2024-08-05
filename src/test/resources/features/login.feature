@@ -1,4 +1,4 @@
-git config --globally user.name "XXXXXX"git Feature: Login feature
+
   Background:
     Given user is on "https://www.saucedemo.com/"
 

@@ -1,6 +1,7 @@
-package pages;
+
 
 import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -62,28 +63,5 @@ public class CreateTariff {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement submit;
 
-    public void createTariff(String branchName, String tariffName, String deliveryTimeText, String typeOfDeliveryText, String deliveryCostText, String region, String coordinatesText, String additionalInfo, boolean isAvailable) {
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
-        createButton.click();
-        branchButton.click();
-        branchDropdown.click();
-        nameOfTariff.sendKeys(tariffName);
-        deliveryTime.sendKeys(deliveryTimeText);
-        typeOfDeliverybutton.click();
-        typeOfDelivery.click();
-        deliveryCost.sendKeys(deliveryCostText);
-        selectRegionbutton.click();
-        SelectRegion.click();
-        coordinates.sendKeys(coordinatesText);
-        additionalInformation.sendKeys(additionalInfo);
 
-        if (isAvailable) {
-            available.click();
-        } else {
-            notAvailable.click();
-        }
-
-        submit.click();
-        Assert.assertTrue(Driver.getDriver().findElement(By.xpath("//td[text()='Hawaii']")).isDisplayed());
-    }
 }

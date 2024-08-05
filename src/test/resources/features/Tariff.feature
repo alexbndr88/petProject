@@ -1,5 +1,6 @@
 Feature: Create Tariff
 
+
   Background:
     Given the user is located at "https://supplysync.us/login"
     And the user logs in with "admin@codewise.com" and "codewise123"
@@ -18,3 +19,4 @@ Feature: Create Tariff
     And user enters graphic coordinates "coordinates"
     And user enters add "information"
     Then user verifies that tariff was created
+
