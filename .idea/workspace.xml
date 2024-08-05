@@ -32,36 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: CompanyOles.executor": "Run",
-    "Cucumber Java.Feature: Gmail.executor": "Run",
-    "Cucumber Java.Feature: Tariff.executor": "Run",
-    "Cucumber Java.Feature: companies.executor": "Run",
-    "Cucumber Java.Feature: login.executor": "Run",
-    "Cucumber Java.Scenario: Add a new company successfully.executor": "Run",
-    "Cucumber Java.Scenario: Login test.executor": "Run",
-    "Cucumber Java.Scenario: Positive checkout.executor": "Run",
-    "Cucumber Java.Scenario: Positive test case.executor": "Run",
-    "Cucumber Java.Scenario: User creates a new company.executor": "Run",
-    "Cucumber Java.Scenario: User creates a new tariff.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where opens webpage.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where user creating tariff.executor": "Run",
-    "Cucumber Java.Scenario: positive scenario where user searches for apple.executor": "Run",
-    "JUnit.CashwiseRunner.executor": "Run",
-    "JUnit.CompaniesRunner.executor": "Run",
-    "JUnit.CucumberRunner.executor": "Run",
-    "JUnit.TariffRunner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging Tariff",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/oles/Downloads/Cucumber-main",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: CompanyOles.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Gmail.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: companies.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a new company successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive checkout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive test case.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User creates a new company.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User creates a new tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where opens webpage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user creating tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user searches for apple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CashwiseRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompaniesRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CucumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TariffRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oles/Downloads/Cucumber-main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="step_definitions" />
