@@ -72,10 +72,12 @@ public class CreateCompanySteps {
     public void user_fills_name(String string) {
         driver.findElement(By.xpath("//input[@name='name']")).sendKeys(string);
     }
+
     @Given("user fills  email {string}")
     public void user_fills_email(String email) {
         driver.findElement(By.xpath("//input[@name='email']")).sendKeys(email);
     }
+
     @Given("user fills address {string}")
     public void user_fills_address(String address) {
         driver.findElement(By.xpath("//input[@name='address']")).sendKeys(address);
@@ -89,12 +91,13 @@ public class CreateCompanySteps {
 
     @Given("user clicks submit button")
     public void user_clicks_submit_button() {
-       driver.findElement(By.xpath("//button[@type='submit']")).click();
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
+
     @Then("user verifies that name wasnt creates")
     public void user_verifies_that_name_wasnt_creates() {
-       String error = driver.findElement(By.xpath("//p[@class='sc-kmQMED junKfP']")).getText();
-       Assert.assertTrue(error.equals("Phone number is required"));
+        String error = driver.findElement(By.xpath("//p[@class='sc-kmQMED junKfP']")).getText();
+        Assert.assertTrue(error.equals("Phone number is required"));
     }
 
 

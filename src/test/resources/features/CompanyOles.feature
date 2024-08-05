@@ -4,7 +4,7 @@ Feature: Create Company
     Given the user is located at "https://supplysync.us/login"
     And the user logs in with "admin@codewise.com" and "codewise123"
 
-  @company
+  @companynegative
   Scenario: User creates a new company
 
     Given user click on createcompany
