@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="added logger">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateTariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateTariff.java" afterDir="false" />
-    </list>
+    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -447,7 +445,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722896370919</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fixed code">
+      <option name="closed" value="true" />
+      <created>1722896580144</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896580144</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896594864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896594864</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896606362</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896606362</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896627271</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896627271</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,8 +495,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="update" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
     <MESSAGE value="added logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="added logger" />
+    <MESSAGE value="fixed code" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
   </component>
 </project>
