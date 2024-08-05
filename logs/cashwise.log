@@ -11,6 +11,7 @@
 15:50:49 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
 15:50:50 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
 15:50:50 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
+<<<<<<< HEAD
 16:11:15 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.saucedemo.com/
 16:11:16 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Swag Labs
 17:04:05 [main] INFO  step_definitions.CreateTariffSteps - user is located at the create tariff page
@@ -26,3 +27,12 @@
 17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user is entering coordinates
 17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user entering comments
 17:08:25 [main] INFO  step_definitions.CreateTariffSteps - user is clicking create 
+=======
+16:27:25 [main] INFO  step_definitions.SearchBarSteps - User is going to https://supplysync.us/login
+16:27:27 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page SupplySync
+16:57:38 [main] INFO  step_definitions.SearchBarSteps - User is going to https://supplysync.us/login
+16:57:40 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page SupplySync
+21:21:46 [main] INFO  step_definitions.SearchBarSteps - User is going to https://www.google.com
+21:21:47 [main] INFO  step_definitions.SearchBarSteps - User successfully landed on page Google
+21:21:47 [main] INFO  step_definitions.SearchBarSteps - User entered apple in input field
+>>>>>>> main

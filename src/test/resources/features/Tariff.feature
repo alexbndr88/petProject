@@ -1,4 +1,5 @@
 Feature: Create Tariff
+<<<<<<< HEAD
 
   Background:
     Given the user is located at "https://supplysync.us/login"
@@ -18,5 +19,4 @@ Feature: Create Tariff
     And user enters graphic coordinates "coordinates"
     And user enters add "information"
     Then user verifies that tariff was created
-
 
