@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="Merge remote-tracking branch 'origin/Tariff' into Tariff">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TariffRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cashwise.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cashwise.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/CreateCompanySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/CreateCompanySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/CreateTariffSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/CreateTariffSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CompanyOles.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CompanyOles.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Tariff.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Tariff.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-    </list>
+    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="added logger" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -399,7 +390,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722892303124</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722895730938</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895730938</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722895752461</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895752461</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722895933519</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895933519</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,6 +433,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="update" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+    <MESSAGE value="added logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logger" />
   </component>
 </project>
