@@ -1,5 +1,5 @@
 Feature: Create Tariff
-<<<<<<< HEAD
+
 
   Background:
     Given the user is located at "https://supplysync.us/login"

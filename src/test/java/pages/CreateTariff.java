@@ -1,9 +1,7 @@
-package pages;
-<<<<<<< HEAD
+
 
 import org.junit.Assert;
-=======
->>>>>>> main
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -65,52 +63,5 @@ public class CreateTariff {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement submit;
 
-    public void createTariff(String branchName, String tariffName, String deliveryTimeText, String typeOfDeliveryText, String deliveryCostText, String region, String coordinatesText, String additionalInfo, boolean isAvailable) {
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
-<<<<<<< HEAD
-        createButton.click();
-        branchButton.click();
-        branchDropdown.click();
-        nameOfTariff.sendKeys(tariffName);
-        deliveryTime.sendKeys(deliveryTimeText);
-        typeOfDeliverybutton.click();
-        typeOfDelivery.click();
-        deliveryCost.sendKeys(deliveryCostText);
-        selectRegionbutton.click();
-        SelectRegion.click();
-        coordinates.sendKeys(coordinatesText);
-        additionalInformation.sendKeys(additionalInfo);
 
-        if (isAvailable) {
-            available.click();
-        } else {
-            notAvailable.click();
-        }
-
-        submit.click();
-        Assert.assertTrue(Driver.getDriver().findElement(By.xpath("//td[text()='Hawaii']")).isDisplayed());
-=======
-        wait.until(ExpectedConditions.elementToBeClickable(createButton)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(branchButton)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(branchDropdown)).click();
-        wait.until(ExpectedConditions.visibilityOf(nameOfTariff)).sendKeys(tariffName);
-        wait.until(ExpectedConditions.visibilityOf(deliveryTime)).sendKeys(deliveryTimeText);
-        wait.until(ExpectedConditions.elementToBeClickable(typeOfDeliverybutton)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(typeOfDelivery)).click();
-        wait.until(ExpectedConditions.visibilityOf(deliveryCost)).sendKeys(deliveryCostText);
-        wait.until(ExpectedConditions.elementToBeClickable(selectRegionbutton)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(SelectRegion)).click();
-        wait.until(ExpectedConditions.visibilityOf(coordinates)).sendKeys(coordinatesText);
-        wait.until(ExpectedConditions.visibilityOf(additionalInformation)).sendKeys(additionalInfo);
-
-        if (isAvailable) {
-            wait.until(ExpectedConditions.elementToBeClickable(available)).click();
-        } else {
-            wait.until(ExpectedConditions.elementToBeClickable(notAvailable)).click();
-        }
-
-        wait.until(ExpectedConditions.elementToBeClickable(submit)).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td[text()='Hawaii']")));
->>>>>>> main
-    }
 }

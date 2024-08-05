@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.CreateTariff;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -25,7 +25,7 @@ import java.util.Map;
 public class CreateTariffSteps {
     private static final Logger logger= LogManager.getLogger();
     WebDriver driver = Driver.getDriver();
-    CreateTariff createTariffPage = PageFactory.initElements(driver, CreateTariff.class);
+
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
     public CreateTariffSteps(){
