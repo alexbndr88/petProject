@@ -96,3 +96,15 @@
 21:02:14 [main] INFO  step_definitions.CreateTariffSteps - user is entering coordinates
 21:02:14 [main] INFO  step_definitions.CreateTariffSteps - user entering comments
 21:02:14 [main] INFO  step_definitions.CreateTariffSteps - user is clicking create 
+21:21:56 [main] INFO  step_definitions.CreateTariffSteps - user is located at the create tariff page
+21:21:56 [main] INFO  step_definitions.CreateTariffSteps - user is clicking on create tariff
+21:21:56 [main] INFO  step_definitions.CreateTariffSteps - user is selecting branch
+21:21:57 [main] INFO  step_definitions.CreateTariffSteps - user enters name
+21:21:57 [main] INFO  step_definitions.CreateTariffSteps - user is selecting time
+21:21:57 [main] INFO  step_definitions.CreateTariffSteps - user is selecting type
+21:21:57 [main] INFO  step_definitions.CreateTariffSteps - user enters cost
+21:21:57 [main] INFO  step_definitions.CreateTariffSteps - user is selecting region
+21:21:58 [main] INFO  step_definitions.CreateTariffSteps - user is selecting availability
+21:21:58 [main] INFO  step_definitions.CreateTariffSteps - user is entering coordinates
+21:21:58 [main] INFO  step_definitions.CreateTariffSteps - user entering comments
+21:21:58 [main] INFO  step_definitions.CreateTariffSteps - user is clicking create 
