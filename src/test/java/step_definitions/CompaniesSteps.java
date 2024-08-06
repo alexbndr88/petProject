@@ -40,7 +40,7 @@ public class CompaniesSteps {
 
     @When("the user navigates to the Companies page")
     public void the_user_navigates_to_the_Companies_page() {
-        // Navigate to Companies page if necessary
+        
     }
 
     @When("the user clicks the {string} button")
