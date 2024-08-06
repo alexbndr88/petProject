@@ -54,25 +54,25 @@ public class CompaniesSteps {
 
     @When("the user enters a new company name in the company name field")
     public void the_user_enters_a_new_company_name_in_the_company_name_field() {
-        companyName = faker.company().name(); // Generate a random company name
+        companyName = faker.company().name(); 
         companiesPage.companyNameField.sendKeys(companyName);
     }
 
     @When("the user enters a new address in the address field")
     public void the_user_enters_a_new_address_in_the_address_field() {
-        address = faker.address().fullAddress(); // Generate a random address
+        address = faker.address().fullAddress(); 
         companiesPage.addressField.sendKeys(address);
     }
 
     @When("the user enters a new phone number in the phone field")
     public void the_user_enters_a_new_phone_number_in_the_phone_field() {
-        phoneNumber = faker.phoneNumber().phoneNumber(); // Generate a random phone number
+        phoneNumber = faker.phoneNumber().phoneNumber();
         companiesPage.phoneField.sendKeys(phoneNumber);
     }
 
     @When("the user enters a new email in the email field")
     public void the_user_enters_a_new_email_in_the_email_field() {
-        email = faker.internet().emailAddress(); // Generate a random email
+        email = faker.internet().emailAddress(); 
         companiesPage.emailField.sendKeys(email);
     }
 
