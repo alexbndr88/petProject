@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7d535700-1e42-475c-a37e-2e66442e2dc3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/Desktop.iml" beforeDir="false" />
@@ -489,25 +490,48 @@
       <change beforePath="$PROJECT_DIR$/../../my-project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../playground" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+>>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> origin/main
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< HEAD
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2kGLTpKS73IcP8DooARcyNhPFL5" />
+=======
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2k1hDM2tUMoQCngkBASGHedWhan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> origin/main
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Scenario: User creates a new tariff.executor": "Run",
@@ -534,6 +558,69 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/CucumberProject-main/src/test/resources/features/Tariff.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber-main" />
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: CompanyOles.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Gmail.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: companies.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a new company successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive checkout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positive test case.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User creates a new company.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User creates a new tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where opens webpage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user creating tariff.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: positive scenario where user searches for apple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CashwiseRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompaniesRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CucumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TariffRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oles/Downloads/Cucumber-main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="step_definitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: User creates a new tariff">
+    <configuration name="Scenario: User creates a new company" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CompanyOles.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber" />
+      <option name="NAME_FILTER" value="^User creates a new company$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User creates a new company$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User creates a new company" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User creates a new tariff" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Tariff.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber" />
+>>>>>>> origin/main
       <option name="NAME_FILTER" value="^User creates a new tariff$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User creates a new tariff$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User creates a new tariff" />
@@ -548,9 +635,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: User creates a new tariff" />
+=======
+    <configuration name="CashwiseRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.CashwiseRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompaniesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.CompaniesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TariffRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.TariffRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Cucumber-main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Cucumber-main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: User creates a new tariff" />
+        <item itemvalue="Cucumber Java.Scenario: User creates a new company" />
+        <item itemvalue="JUnit.TariffRunner" />
+        <item itemvalue="JUnit.CompaniesRunner" />
+        <item itemvalue="JUnit.CashwiseRunner" />
+>>>>>>> origin/main
       </list>
     </recent_temporary>
   </component>
@@ -564,6 +719,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="7d535700-1e42-475c-a37e-2e66442e2dc3" name="Changes" comment="" />
       <created>1722904976481</created>
       <option name="number" value="Default" />
@@ -572,4 +728,323 @@
     </task>
     <servers />
   </component>
+=======
+      <changelist id="7689f67c-6fea-4988-a2a9-9caa41415905" name="Changes" comment="" />
+      <created>1722456869266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722456869266</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1722457233787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722457233787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1722457252637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722457252637</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459301102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459301102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459308406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459308406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459442347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459442347</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459449815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459449815</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459519623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459519623</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722459992469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459992469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722460329623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722460329623</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722460708747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722460708747</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722632407472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722632407472</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722632412041</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722632412041</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722632415243</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722632415243</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1722634751218</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722634751218</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638092106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638092106</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638105921</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638105921</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <option name="closed" value="true" />
+      <created>1722638113404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638113404</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722638136845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722638136845</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722640525653</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722640525653</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722640541721</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722640541721</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722730236067</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722730236067</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722730350425</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722730350425</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722730367963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722730367963</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722892277605</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722892277605</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722892303124</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722892303124</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722895730938</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895730938</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722895752461</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895752461</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722895933519</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895933519</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722896019499</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896019499</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722896342312</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896342312</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722896351619</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896351619</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added logger">
+      <option name="closed" value="true" />
+      <created>1722896370919</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896370919</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fixed code">
+      <option name="closed" value="true" />
+      <created>1722896580144</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896580144</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896594864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896594864</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896606362</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896606362</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Merge remote-tracking branch 'origin/Tariff' into Tariff">
+      <option name="closed" value="true" />
+      <created>1722896627271</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896627271</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="update" />
+    <MESSAGE value="added logger" />
+    <MESSAGE value="fixed code" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Tariff' into Tariff" />
+  </component>
+>>>>>>> origin/main
 </project>
