@@ -4,7 +4,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d496e44-992b-43aa-a7cf-e7b1c5747c50" name="Changes" comment="" />
+    <list default="true" id="5d496e44-992b-43aa-a7cf-e7b1c5747c50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/java/api/IntroToAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/java/api/ReqRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/java/step_definitions/CashWiseApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/java/utilities/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/resources/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/src/test/resources/features/cashwiseapi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/logs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/logs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/logs/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/logs/cashwise.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/main/resources/log4j-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/SauceDemoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/CashwisePages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/CompaniesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/CreateCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/CreateTariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/SauceDemoPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/pages/SearchBarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/CashwiseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/CompaniesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/CreateCompanySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/CreateTariffSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/SauceDemoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/step_definitions/SearchBarSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/CashwiseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/CompaniesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/java/utilities/TariffRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/CompanyOles.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/Gmail.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/SauceDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/SearchBar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/Tariff.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/cashwise.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/companies.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Cucumber2/src/test/resources/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/logs/cashwise.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/main/resources/log4j-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/SauceDemoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/CashwisePages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/CompaniesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/CreateCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/CreateTariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/SauceDemoPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/pages/SearchBarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/CashwiseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/CompaniesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/CreateCompanySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/CreateTariffSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/SauceDemoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/step_definitions/SearchBarSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/CashwiseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/CompaniesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/java/utilities/TariffRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/CompanyOles.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/Gmail.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/SauceDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/SearchBar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/Tariff.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/cashwise.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/companies.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CucumberProject-main/src/test/resources/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/RequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/runnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/loginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CashWiseToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logs/cashwise.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/main/resources/log4j-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/SauceDemoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/CashwisePages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/CompaniesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/CreateCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/CreateTariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/SauceDemoPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/pages/SearchBarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/CashwiseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/CompaniesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/CreateCompanySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/CreateTariffSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/SauceDemoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/step_definitions/SearchBarSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/CashwiseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/CompaniesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/java/utilities/TariffRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/CompanyOles.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/Gmail.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/SauceDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/SearchBar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/Tariff.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/cashwise.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/companies.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/test/resources/features/login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +189,7 @@
     "JUnit.test.GetSingleSeller.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "7be812ea",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
